@@ -1,0 +1,41 @@
+/*Fontes*/
+
+@font-face {
+    font-family: 'FF_DIN_Condensed_Regular';
+    src: url(../assets/fonts/FF_DIN_Condensed_Regular.otf);
+}
+
+@font-face {
+    font-family: 'FF_DIN_Condensed_Bold';
+    src: url(../assets/fonts/FF_DIN_Condensed_Bold.otf);
+}
+
+@font-face {
+    font-family: 'FF_DIN_Condensed_Black';
+    src: url(../assets/fonts/FF_DIN_Condensed_Black.otf);
+}
+
+/*Navbar*/
+
+nav ul {
+    column-gap: 5em !important;
+}
+
+nav ul a {
+    font-family: 'FF_DIN_Condensed_Black', Arial, Helvetica, sans-serif !important;
+    font-size: 1.5em !important;
+    font-weight: bold !important;
+    color: #005C7C !important;
+}
+
+nav ul a:hover {
+    opacity: 50% !important;
+}
+
+/*Media Query*/
+
+@media only screen and (max-width: 600px) {
+    header {
+        background: #F8F9F9;
+    }
+}
