@@ -1,5 +1,3 @@
-/*Fontes*/
-
 @font-face {
     font-family: 'FF_DIN_Condensed_Regular';
     src: url(../assets/fonts/FF_DIN_Condensed_Regular.otf);
@@ -15,10 +13,12 @@
     src: url(../assets/fonts/FF_DIN_Condensed_Black.otf);
 }
 
-/*Navbar*/
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
 
 nav ul {
-    column-gap: 5em !important;
+    gap: 3em !important;
 }
 
 nav ul a {
@@ -32,16 +32,10 @@ nav ul a:hover {
     opacity: 50% !important;
 }
 
-/*Media Query*/
-
-@media only screen and (max-width: 600px) {
-    header {
-        background: #F8F9F9;
-    }
-}
-
-@media only screen and (max-width: 1024px) {
-    nav ul {
-        column-gap: 2em !important;
-    }
+footer .logo-bar {
+    height: 47px;
+    background: url('../assets/img/Rodapé/marca-1.png');
+    background-size: contain;
+    background-repeat: space;
+    bac
 }
