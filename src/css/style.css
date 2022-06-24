@@ -17,14 +17,17 @@
     flex-grow: 0 !important;
 }
 
-nav ul {
-    gap: 3em !important;
+.col-gap-2 {
+    column-gap: 2em !important;
+}
+
+.row-gap-3 {
+    row-gap: 3em !important;
 }
 
 nav ul a {
     font-family: 'FF_DIN_Condensed_Black', Arial, Helvetica, sans-serif !important;
     font-size: 1.5em !important;
-    font-weight: bold !important;
     color: #005C7C !important;
 }
 
@@ -32,10 +35,45 @@ nav ul a:hover {
     opacity: 50% !important;
 }
 
-footer .logo-bar {
-    height: 47px;
-    background: url('../assets/img/Rodapé/marca-1.png');
-    background-size: contain;
-    background-repeat: space;
-    bac
+footer ul a {
+    font-family: 'FF_DIN_Condensed_Bold', Arial, Helvetica, sans-serif !important;
+    font-size: 1.25em !important;
+    color: #005C7C !important;
+}
+
+footer ul a:hover {
+    opacity: 50% !important;
+}
+
+footer img {
+    object-fit: contain !important;
+}
+
+footer a img:hover {
+    opacity: 50% !important;
+}
+
+footer span a {
+    text-decoration: none !important;
+    color: #005C7C;
+}
+
+.contact {
+    font-family: 'FF_DIN_Condensed_Bold', Arial, Helvetica, sans-serif !important;
+    font-size: 1.25em !important;
+    color: #005C7C !important;
+}
+
+@media (max-width: 991px) {
+    footer ul, footer span {
+        text-align: center !important;
+    }
+
+    .social-media-icons {
+        justify-content: center !important;
+    }
+
+    .footer-gap {
+        gap: 3em !important;
+    }
 }
