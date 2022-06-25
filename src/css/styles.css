@@ -36,6 +36,7 @@ nav ul a:hover {
 }
 
 footer ul a {
+    width: fit-content !important;
     font-family: 'FF_DIN_Condensed_Bold', Arial, Helvetica, sans-serif !important;
     font-size: 1.25em !important;
     color: #005C7C !important;
@@ -58,15 +59,27 @@ footer span a {
     color: #005C7C;
 }
 
+footer span a:hover {
+    opacity: 50% !important;
+}
+
 .contact {
     font-family: 'FF_DIN_Condensed_Bold', Arial, Helvetica, sans-serif !important;
     font-size: 1.25em !important;
     color: #005C7C !important;
 }
 
+.social-media-icons {
+    column-gap: 1em !important;
+}
+
 @media (max-width: 991px) {
     footer ul, footer span {
         text-align: center !important;
+    }
+
+    footer ul {
+        align-items: center !important;
     }
 
     .social-media-icons {
