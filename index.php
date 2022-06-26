@@ -17,7 +17,7 @@
             <div class="d-flex flex-wrap">
                 <nav class="navbar navbar-expand-lg w-100">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="/"><img src="./src/assets/img/logo.png" alt="logo"></a>
+                        <a class="navbar-brand" href="?pg=home"><img src="./src/assets/img/logo.png" alt="logo"></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -33,7 +33,7 @@
                                     <a class="nav-link" href="?pg=produtos">Produtos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="?pg=localização">Localização</a>
+                                    <a class="nav-link" href="?pg=localizacao">Localização</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="?pg=contato">Contato</a>
@@ -47,7 +47,7 @@
     </header>
     <main>
         <?php
-        $pg = "";
+        $pg = null;
         if (isset($_GET['pg']) && !empty($_GET['pg'])) {
             $pg = addslashes($_GET['pg']);
         }
@@ -58,8 +58,17 @@
             case 'quem-somos':
                 include './src/html/quem-somos.html';
                 break;
+            case 'produtos':
+                include './src/html/produtos.html';
+                break;
+            case 'localizacao':
+                include './src/html/localizacao.html';
+                break;
+            case 'contato':
+                include './src/html/contato.html';
+                break;
             default:
-                echo '<h1>Erro 404 Page not found!</h1>';
+                include './src/html/home.html';
                 break;
         }
         ?>
@@ -81,7 +90,7 @@
         <div class="container">
             <div class="d-flex flex-wrap footer-gap">
                 <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center">
-                    <div class="#">
+                    <div class="img">
                         <img src="./src/assets/img/rodape/aguia-mac-lojas.png" alt="aguia">
                     </div>
                 </div>

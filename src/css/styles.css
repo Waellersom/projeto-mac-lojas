@@ -35,6 +35,74 @@ nav ul a:hover {
     opacity: 50% !important;
 }
 
+.my-banner-mobile {
+    display: none !important;
+}
+
+.saiba-mais {
+    padding: 3em 0 !important;
+}
+
+.saiba-mais-1 {
+    font-family: 'FF_DIN_Condensed_Bold', Arial, Helvetica, sans-serif !important;
+    font-size: 2em !important;
+    color: grey !important;
+}
+
+.saiba-mais-2 {
+    font-family: 'FF_DIN_Condensed_Bold', Arial, Helvetica, sans-serif !important;
+    font-size: 2em !important;
+    color: #d6b469 !important;
+}
+
+.saiba-mais button {
+    font-family: 'FF_DIN_Condensed_Bold', Arial, Helvetica, sans-serif !important;
+    font-size: 1.5em !important;
+    color: #d6b469 !important;
+    background: transparent !important;
+    border: 2px solid #d6b469 !important;
+    border-radius: 25px !important;
+    padding: 0.25em 2em !important;
+}
+
+.saiba-mais button:hover {
+    opacity: 50% !important;
+}
+
+.frete-gratis {
+    margin-bottom: 3em !important;
+}
+
+.frete-gratis-1 {
+    font-family: 'FF_DIN_Condensed_Black', Arial, Helvetica, sans-serif !important;
+    font-size: 3em !important;
+    text-align: center !important;
+    line-height: 1.2em !important;
+    color: #d6b469 !important;
+}
+
+.frete-gratis-1 span {
+    font-family: 'FF_DIN_Condensed_Regular', Arial, Helvetica, sans-serif !important;
+    color: #005C7C !important;
+}
+
+.produtos {
+    margin-bottom: 3em !important;
+}
+
+.produtos span {
+    font-family: 'FF_DIN_Condensed_Regular', Arial, Helvetica, sans-serif !important;
+    font-size: 2.5em !important;
+    text-align: center !important;
+    color: #005C7C !important;
+}
+
+.produtos .my-card span {
+    font-family: 'FF_DIN_Condensed_Black', Arial, Helvetica, sans-serif !important;
+    font-size: 2em !important;
+    line-height: 1.2em !important;
+}
+
 footer ul a {
     width: fit-content !important;
     font-family: 'FF_DIN_Condensed_Bold', Arial, Helvetica, sans-serif !important;
@@ -88,5 +156,13 @@ footer span a:hover {
 
     .footer-gap {
         gap: 3em !important;
+    }
+
+    .my-banner {
+        display: none !important;
+    }
+
+    .my-banner-mobile {
+        display: contents !important;
     }
 }

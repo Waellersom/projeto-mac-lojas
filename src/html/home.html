@@ -1,4 +1,4 @@
-<section class="banner">
+<section class="my-banner">
     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
@@ -29,32 +29,127 @@
         </button>
     </div>
 </section>
+<section class="my-banner-mobile">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+                <img src="./src/assets/img/home/banner-mobile.png" class="d-block w-100" alt="banner1">
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="./src/assets/img/home/banner-mobile.png" class="d-block w-100" alt="banner2">
+            </div>
+            <div class="carousel-item">
+                <img src="./src/assets/img/home/banner-mobile.png" class="d-block w-100" alt="banner3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
 <section class="saiba-mais">
     <div class="container">
-        <div class="d-flex flex-wrap">
-            <div class="col-12 col-lg-4 d-flex flex-column align-items-center">
-                <div class="">
+        <div class="d-flex flex-wrap row-gap-3 justify-content-center">
+            <div class="col-12 col-lg-4 d-flex flex-column align-items-center gap-3 justify-content-end">
+                <div class="img">
                     <img src="./src/assets/img/home/icon-quemsomos.png" alt="quem-somos">
                 </div>
-                <span class="saiba-mais-1">QUEM</span>
-                <span class="saiba-mais-2">SOMOS</span>
-                <button>SAIBA +</button>
+                <div class="d-flex flex-column align-items-center">
+                    <span class="saiba-mais-1">QUEM</span>
+                    <span class="saiba-mais-2">SOMOS</span>
+                </div>
+                <a href="?pg=quem-somos"><button>SAIBA +</button></a>
             </div>
-            <div class="col-12 col-lg-4 d-flex flex-column align-items-center">
-                <div class="">
+            <div class="col-12 col-lg-4 d-flex flex-column align-items-center gap-3 justify-content-end">
+                <div class="img">
                     <img src="./src/assets/img/home/icon-nossos-produtos.png" alt="quem-somos">
                 </div>
-                <span class="saiba-mais-1">NOSSOS</span>
-                <span class="saiba-mais-2">PRODUTOS</span>
-                <button>SAIBA +</button>
+                <div class="d-flex flex-column align-items-center">
+                    <span class="saiba-mais-1">NOSSOS</span>
+                    <span class="saiba-mais-2">PRODUTOS</span>
+                </div>
+                <a href="?pg=produtos"><button>SAIBA +</button></a>
             </div>
-            <div class="col-12 col-lg-4 d-flex flex-column align-items-center">
+            <div class="col-12 col-lg-4 d-flex flex-column align-items-center gap-3 justify-content-end">
                 <div class="">
                     <img src="./src/assets/img/home/icon-whats.png" alt="quem-somos">
                 </div>
-                <span class="saiba-mais-1">SOLICITE UM</span>
-                <span class="saiba-mais-2">ORÇAMENTO</span>
-                <button>SAIBA +</button>
+                <div class="d-flex flex-column align-items-center">
+                    <span class="saiba-mais-1">SOLICITE UM</span>
+                    <span class="saiba-mais-2">ORÇAMENTO</span>
+                </div>
+                <a href="?pg=contato"><button>SAIBA +</button></a>
+            </div>
+            <img class="w-100" src="./src/assets/img/home/faixa.png" alt="faixa">
+        </div>
+    </div>
+</section>
+<section class="frete-gratis">
+    <div class="container">
+        <div class="d-flex flex-wrap row-gap-3 justify-content-center">
+            <div class="col-12 col-lg-6 d-flex flex-column align-items-end justify-content-center">
+                <div class="d-flex flex-column align-items-center justify-content-center">
+                    <span class="frete-gratis-1"><span>Atendemos:</span> Empresas, <br>
+                        Escritórios, Comércios <br>
+                        e Donas de Casa.
+                    </span>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 d-flex align-items-center justify-content-center">
+                <div class="img">
+                    <img src="./src/assets/img/home/icon-frete-gratis.png" alt="frete-gratis">
+                </div>
+            </div>
+            <img class="w-100" src="./src/assets/img/home/faixa.png" alt="faixa">
+        </div>
+    </div>
+</section>
+<section class="produtos">
+    <div class="container">
+        <span class="col-12 d-flex align-items-center justify-content-center mb-3">TRABALHAMOS COM PRODUTOS DE:</span>
+        <div class="d-flex flex-wrap align-items-start gap-3 justify-content-center">
+            <div class="col-12 col-lg-2 my-card d-flex flex-column align-items-center justify-content-center gap-2">
+                <div class="img">
+                    <img src="./src/assets/img/home/icon-produtos-limpeza.png" alt="limpeza">
+                </div>
+                <span>LIMPEZA</span>
+            </div>
+            <div class="col-12 col-lg-2 my-card d-flex flex-column align-items-center justify-content-center gap-2">
+                <div class="img">
+                    <img src="./src/assets/img/home/icon-produtos-descartaveis.png" alt="descartaveis">
+                </div>
+                <span>DESCARTÁVEIS</span>
+            </div>
+            <div class="col-12 col-lg-2 my-card d-flex flex-column align-items-center justify-content-center gap-2">
+                <div class="img">
+                    <img src="./src/assets/img/home/icon-produtos-escritorio.png" alt="escritorio">
+                </div>
+                <span>ESCRITÓRIO</span>
+            </div>
+            <div class="col-12 col-lg-2 my-card d-flex flex-column align-items-center justify-content-center gap-2">
+                <div class="img">
+                    <img src="./src/assets/img/home/icon-produtos-escolar.png" alt="escolar">
+                </div>
+                <span>ESCOLAR</span>
+            </div>
+            <div class="col-12 col-lg-2 my-card d-flex flex-column align-items-center justify-content-center gap-2">
+                <div class="img">
+                    <img src="./src/assets/img/home/icon-produtos-copa-supermercado.png" alt="copa-e-supermercado">
+                </div>
+                <span class="text-center">COPA E <br> SUPERMERCADO</span>
             </div>
         </div>
     </div>
