@@ -103,6 +103,25 @@ nav ul a:hover {
     line-height: 1.2em !important;
 }
 
+.quem-somos {
+    border-top: 3px solid #005C7C !important;
+    padding: 3em 0 !important;
+}
+
+.quem-somos h2 {
+    color: #005C7C !important;
+}
+
+.quem-somos h1 {
+    font-weight: bold !important;
+    color: #005C7C;
+}
+
+.quem-somos p {
+    font-size: 1.25em !important;
+    font-weight: 600 !important;
+}
+
 footer ul a {
     width: fit-content !important;
     font-family: 'FF_DIN_Condensed_Bold', Arial, Helvetica, sans-serif !important;
@@ -164,5 +183,9 @@ footer span a:hover {
 
     .my-banner-mobile {
         display: contents !important;
+    }
+
+    .quem-somos img {
+        width: 100% !important;
     }
 }
