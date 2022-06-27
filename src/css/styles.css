@@ -122,6 +122,22 @@ nav ul a:hover {
     font-weight: 600 !important;
 }
 
+.localizacao {
+    border-top: 3px solid #005C7C !important;
+    padding: 3em 0 !important;
+}
+
+.localizacao h1 {
+    font-weight: bold !important;
+    text-align: center !important;
+    color: #005C7C !important;
+    margin-bottom: 1em !important;
+}
+
+.localizacao iframe {
+    height: 50vw !important;
+}
+
 footer ul a {
     width: fit-content !important;
     font-family: 'FF_DIN_Condensed_Bold', Arial, Helvetica, sans-serif !important;
