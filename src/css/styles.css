@@ -138,6 +138,92 @@ nav ul a:hover {
     height: 50vw !important;
 }
 
+.contato {
+    padding: 3em 0 !important;
+    border-top: 3px solid #005C7C !important;
+}
+
+.contato h1 {
+    color: #005C7C !important;
+    font-weight: bold !important;
+}
+
+.contato p {
+    color: #005C7C !important;
+}
+
+.contato-span-1 {
+    background: #d6b469 !important;
+    border-radius: 50px !important;
+    padding: 0.5em 2em !important;
+}
+
+.contato-span-1 h1 {
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.contato-span-2 a {
+    text-decoration: none !important;
+    color: #005C7C !important;
+    font-weight: 600 !important;
+}
+
+.contato-span-2 a:hover {
+    opacity: 50% !important;
+}
+
+.produtos-page {
+    text-align: center !important;
+    padding: 3em 0 !important;
+    border-top: 3px solid #005C7C !important;
+}
+
+.produtos-page h1 {
+    font-weight: bold !important;
+    color: #005C7C !important;
+}
+
+.produtos-page h2 {
+    font-weight: normal !important;
+    color: #005C7C;
+}
+
+.produtos-card {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    row-gap: 1em !important;
+    margin: 3em 4em !important;
+}
+
+.produtos-card h2 {
+    font-weight: 600 !important;
+}
+
+.produtos-h2-1 {
+    margin-bottom: 0 !important;
+    color: gray !important;
+}
+
+.produtos-h2-2 {
+    color: #d6b469 !important;
+}
+
+.produtos-page button {
+    background: none !important;
+    border: 2px solid #d6b469 !important;
+    color: #d6b469 !important;
+    border-radius: 25px !important;
+    font-weight: 600 !important;
+    padding: 0.25em 2em !important;
+    font-size: 1.5em !important;
+}
+
+.produtos-page button:hover {
+    opacity: 50% !important;
+}
+
 footer ul a {
     width: fit-content !important;
     font-family: 'FF_DIN_Condensed_Bold', Arial, Helvetica, sans-serif !important;
