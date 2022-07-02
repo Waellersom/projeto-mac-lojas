@@ -67,6 +67,30 @@
             case 'contato':
                 include './src/html/contato.html';
                 break;
+            case 'descartaveis':
+                include './src/html/produtos/descartaveis.html';
+                break;
+            case 'higiene-pessoal':
+                include './src/html/produtos/higiene-pessoal.html';
+                break;
+            case 'lavanderia':
+                include './src/html/produtos/lavanderia.html';
+                break;
+            case 'escolar':
+                include './src/html/produtos/escolar.html';
+                break;
+            case 'escritorio':
+                include './src/html/produtos/escritorio.html';
+                break;
+            case 'papeis':
+                include './src/html/produtos/papeis.html';
+                break;
+            case 'saco-lixo':
+                include './src/html/produtos/saco-lixo.html';
+                break;
+            case 'utilidades':
+                include './src/html/produtos/utilidades.html';
+                break;
             default:
                 include './src/html/home.html';
                 break;
@@ -97,19 +121,19 @@
                 <div class="col-12 col-lg-4">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="?pg=home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Quem Somos</a>
+                            <a class="nav-link" href="?pg=quem-somos">Quem Somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Produtos</a>
+                            <a class="nav-link" href="?pg=produtos">Produtos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Localização</a>
+                            <a class="nav-link" href="?pg=localizacao">Localização</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contato</a>
+                            <a class="nav-link" href="?pg=contato">Contato</a>
                         </li>
                     </ul>
                 </div>

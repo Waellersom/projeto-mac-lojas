@@ -97,6 +97,14 @@ nav ul a:hover {
     color: #005C7C !important;
 }
 
+.produtos a {
+    text-decoration: none !important;
+}
+
+.produtos a:hover {
+    opacity: 50% !important;
+}
+
 .produtos .my-card span {
     font-family: 'FF_DIN_Condensed_Black', Arial, Helvetica, sans-serif !important;
     font-size: 2em !important;
@@ -173,6 +181,10 @@ nav ul a:hover {
     opacity: 50% !important;
 }
 
+.contato a {
+    text-decoration: none !important;
+}
+
 .produtos-page {
     text-align: center !important;
     padding: 3em 0 !important;
@@ -222,6 +234,38 @@ nav ul a:hover {
 
 .produtos-page button:hover {
     opacity: 50% !important;
+}
+
+.sub-produtos {
+    border-top: 3px solid #005C7C !important;
+    padding: 3em 0 !important;
+}
+
+.sub-produtos h4 {
+    font-weight: normal;
+    color: #005C7C;
+}
+
+.sub-produtos span {
+    font-weight: bold !important;
+}
+
+.sub-produtos hr {
+    border: none;
+    opacity: 100%;
+    border-top: 3px solid #005C7C !important;
+}
+
+.sub-produtos p {
+    font-weight: 500 !important;
+}
+
+.sub-produtos h2 {
+    color: grey;
+}
+
+.sub-produtos h2 span {
+    color: #d6b469;
 }
 
 footer ul a {
