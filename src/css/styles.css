@@ -45,10 +45,13 @@ nav ul a:hover {
 
 .saiba-mais a {
     text-decoration: none !important;
+}
+
+.saiba-mais a img {
     transition: 0.3s ease-in-out !important;
 }
 
-.saiba-mais a:hover {
+.saiba-mais a img:hover {
     transform: scale(1.1) !important;
 }
 
@@ -135,8 +138,10 @@ nav ul a:hover {
 }
 
 .quem-somos p {
+    text-align: start !important;
     font-size: 1.25em !important;
     font-weight: 600 !important;
+    line-height: 1.2em !important;
 }
 
 .localizacao {

@@ -102,11 +102,15 @@
             <div class="container">
                 <div class="d-flex flex-wrap">
                     <div class="col-12 d-flex justify-content-between flex-wrap">
-                        <img src="./src/assets/img/rodape/marca-1.png" alt="marca-1">
-                        <img src="./src/assets/img/rodape/marca-1.png" alt="marca-1">
-                        <img src="./src/assets/img/rodape/marca-1.png" alt="marca-1">
-                        <img src="./src/assets/img/rodape/marca-1.png" alt="marca-1">
-                        <img src="./src/assets/img/rodape/marca-1.png" alt="marca-1">
+                        <img src="./src/assets/img/rodape/marca-2.png" alt="marca-1">
+                        <img src="./src/assets/img/rodape/marca-3.png" alt="marca-2">
+                        <img src="./src/assets/img/rodape/marca-4.png" alt="marca-3">
+                        <img src="./src/assets/img/rodape/marca-5.png" alt="marca-4">
+                        <img src="./src/assets/img/rodape/marca-6.png" alt="marca-5">
+                        <img src="./src/assets/img/rodape/marca-7.png" alt="marca-6">
+                        <img src="./src/assets/img/rodape/marca-8.png" alt="marca-7">
+                        <img src="./src/assets/img/rodape/marca-9.png" alt="marca-8">
+                        <img src="./src/assets/img/rodape/marca-10.png" alt="marca-9">
                     </div>
                 </div>
             </div>
