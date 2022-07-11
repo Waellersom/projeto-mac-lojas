@@ -17,26 +17,26 @@
             <div class="d-flex flex-wrap">
                 <nav class="navbar navbar-expand-lg w-100">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="?pg=home"><img src="./src/assets/img/logo.png" alt="logo"></a>
+                        <a class="navbar-brand" href="home"><img src="./src/assets/img/logo.png" alt="logo"></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav col-gap-2">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="?pg=home">Home</a>
+                                    <a class="nav-link" href="home">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="?pg=quem-somos">Quem Somos</a>
+                                    <a class="nav-link" href="quem-somos">Quem Somos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="?pg=produtos">Produtos</a>
+                                    <a class="nav-link" href="produtos">Produtos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="?pg=localizacao">Localização</a>
+                                    <a class="nav-link" href="localizacao">Localização</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="?pg=contato">Contato</a>
+                                    <a class="nav-link" href="contato">Contato</a>
                                 </li>
                             </ul>
                         </div>
@@ -47,54 +47,11 @@
     </header>
     <main>
         <?php
-        $pg = null;
-        if (isset($_GET['pg']) && !empty($_GET['pg'])) {
-            $pg = addslashes($_GET['pg']);
-        }
-        switch ($pg) {
-            case 'home':
-                include './src/html/home.html';
-                break;
-            case 'quem-somos':
-                include './src/html/quem-somos.html';
-                break;
-            case 'produtos':
-                include './src/html/produtos.html';
-                break;
-            case 'localizacao':
-                include './src/html/localizacao.html';
-                break;
-            case 'contato':
-                include './src/html/contato.html';
-                break;
-            case 'descartaveis':
-                include './src/html/produtos/descartaveis.html';
-                break;
-            case 'higiene-pessoal':
-                include './src/html/produtos/higiene-pessoal.html';
-                break;
-            case 'lavanderia':
-                include './src/html/produtos/lavanderia.html';
-                break;
-            case 'escolar':
-                include './src/html/produtos/escolar.html';
-                break;
-            case 'escritorio':
-                include './src/html/produtos/escritorio.html';
-                break;
-            case 'papeis':
-                include './src/html/produtos/papeis.html';
-                break;
-            case 'saco-lixo':
-                include './src/html/produtos/saco-lixo.html';
-                break;
-            case 'utilidades':
-                include './src/html/produtos/utilidades.html';
-                break;
-            default:
-                include './src/html/home.html';
-                break;
-        }
+        $route = $_GET['url'] ?? 'home';
+
+        if (file_exists("./src/html/{$route}.html"))
+            include "./src/html/{$route}.html";
+
         ?>
     </main>
     <footer class="flex-column d-flex row-gap-3">
@@ -125,19 +82,19 @@
                 <div class="col-12 col-lg-4">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="?pg=home">Home</a>
+                            <a class="nav-link" href="home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="?pg=quem-somos">Quem Somos</a>
+                            <a class="nav-link" href="quem-somos">Quem Somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="?pg=produtos">Produtos</a>
+                            <a class="nav-link" href="produtos">Produtos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="?pg=localizacao">Localização</a>
+                            <a class="nav-link" href="localizacao">Localização</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="?pg=contato">Contato</a>
+                            <a class="nav-link" href="contato">Contato</a>
                         </li>
                     </ul>
                 </div>
